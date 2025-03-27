@@ -47,14 +47,17 @@ How to use git:
    // or you can just yolo and commit everything to the main branch (Recommended)
    
 2. Make Changes & Commit
-   git add . // might get a warning message about something something LF to CRLF next time git touches it // check troubleshooting 
+   git add .
+   // might get a warning message about something something LF to CRLF next time git touches it
+   // check troubleshooting 
+
    git commit -m "Your message here"
    
-3. Push to GitHub
+4. Push to GitHub
    git push origin your-feature-branch // if youre using seperate branches
    git push origin main // if youre using main branch (Recommended)
 
-4. Pull from Github
+5. Pull from Github
    git pull origin main 
    
 
