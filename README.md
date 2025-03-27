@@ -21,47 +21,69 @@ This repository contains code for a neural network implementation that processes
 ```
 
 
-Clone the Repository:
+### Clone the Repository:
+
 To start working on this project, clone the repository using:
-git clone https://github.com/3astW1nd/hpc_proj.git
+
+`git clone https://github.com/3astW1nd/hpc_proj.git`
 
 
-Build the Project:
-cd V1  // Change to V1, or another version
-make   // Compile the code
+### Build the Project:
+
+`cd V1`  // Change to V1, or another version
+
+`make`   // Compile the code
 
 
-Run the Program:
+### Run the Program:
+
 After compilation, run the neural network program:
-./nn.exe (For linux/WSL)
-nn.exe (For windows)
 
-MNIST Dataset:
+`./nn.exe` (For linux/WSL)
+
+`nn.exe` (For windows)
+
+### MNIST Dataset:
+
 The dataset files are stored in the `data/` folder. If the program cannot find them, update the file paths in `nn.c` to reflect the correct directory. 
+
 // add a '../' to the file path in the code in V2, V3, V4 folders
 
-How to use git:
+### How to use git:
+
 1. Create a Branch
+
    // can make your own branch using the code below
-   git checkout -b your-feature-branch
+   
+   `git checkout -b your-feature-branch`
+   
    // or you can just yolo and commit everything to the main branch (Recommended)
    
-2. Make Changes & Commit
-   git add .
-   // might get a warning message about something something LF to CRLF next time git touches it
-   // check troubleshooting 
+3. Make Changes & Commit
 
-   git commit -m "Your message here"
+   `git add .`
    
-4. Push to GitHub
-   git push origin your-feature-branch // if youre using seperate branches
-   git push origin main // if youre using main branch (Recommended)
+   // might get a warning message about something something LF to CRLF next time git touches it
 
-5. Pull from Github
-   git pull origin main 
+    // check troubleshooting 
+
+   `git commit -m "Your message here"`
+   
+5. Push to GitHub
+
+   `git push origin your-feature-branch` // if youre using seperate branches
+
+   `git push origin main` // if youre using main branch (Recommended)
+
+7. Pull from Github
+
+   `git pull origin main` 
    
 
    
 Troubleshooting:
-Line Ending Issues: Run `git config --global core.autocrlf input`
+
+Line Ending Issues: 
+
+Run `git config --global core.autocrlf input`
   
