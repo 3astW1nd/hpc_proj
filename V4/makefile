@@ -1,13 +1,13 @@
-CC = gcc
-CFLAGS = -Wall -O2
+CC = nvcc
+CFLAGS = -O2
 
 EXE = nn.exe
-SRC = nn.c
+SRC = nn.cu
 
 all: $(EXE) run
 
 $(EXE): $(SRC)
-	$(CC) $(CFLAGS) -o $(EXE) $(SRC) -lm
+	$(CC) $(CFLAGS) -o $(EXE) $(SRC) 
 
 run: $(EXE)
 	./$(EXE)
