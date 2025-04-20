@@ -12,7 +12,7 @@
 #define BATCH_SIZE 64
 #define NUM_CLASSES 10  // Digits 0-9
 
-// CUDA error checking
+
 #define CHECK_CUDA_ERROR(call) { \
     cudaError_t err = call; \
     if (err != cudaSuccess) { \
