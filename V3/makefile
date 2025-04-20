@@ -7,7 +7,7 @@ SRC = nn.cu
 all: $(EXE) run
 
 $(EXE): $(SRC)
-	$(CC) $(CFLAGS) -o $(EXE) $(SRC) 
+	$(CC) $(CFLAGS) -o $(EXE) $(SRC)
 
 run: $(EXE)
 	./$(EXE)
